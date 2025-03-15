@@ -16,7 +16,7 @@ import { categories } from "@/app/lib/categories";
 import { useActionState, useState } from "react";
 import { useForm } from "@conform-to/react";
 import { parseWithZod } from "@conform-to/zod";
-import { createProduct, editProduct } from "@/app/actions";
+import { editProduct } from "@/app/actions";
 import { productSchema } from "@/app/lib/zodSchemas";
 import { type $Enums } from "@prisma/client";
 

@@ -1,7 +1,6 @@
 import { prisma } from "@/app/lib/db";
-import { Avatar, AvatarFallback } from "@/components/ui/avatar";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { DollarSign, PartyPopper, ShoppingBag, User, User2 } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { DollarSign, PartyPopper, ShoppingBag, User2 } from "lucide-react";
 
 async function getData() {
 

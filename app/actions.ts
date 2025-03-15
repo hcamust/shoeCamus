@@ -7,10 +7,8 @@ import { prisma } from "./lib/db";
 import { redis } from "./lib/redis";
 import { Cart } from "./lib/interfaces";
 import { revalidatePath } from "next/cache";
-import { User } from "lucide-react";
 import { stripe } from "./lib/stripe";
 import Stripe from "stripe";
-import { Item } from "@radix-ui/react-dropdown-menu";
 
 export async function createProduct(prevState: unknown, formData: FormData) {
     const { getUser } = getKindeServerSession()

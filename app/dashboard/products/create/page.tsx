@@ -11,8 +11,7 @@ import { Switch } from "@/components/ui/switch";
 import { Textarea } from "@/components/ui/textarea";
 import { ChevronLeft, XIcon } from "lucide-react";
 import Link from "next/link";
-import { useFormState } from "react-dom";
-import { FormStateInput, useForm } from "@conform-to/react"
+import { useForm } from "@conform-to/react"
 import { parseWithZod } from "@conform-to/zod";
 import { productSchema } from "@/app/lib/zodSchemas";
 import { useActionState, useState } from "react";

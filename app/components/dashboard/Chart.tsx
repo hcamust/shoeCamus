@@ -1,6 +1,5 @@
 "use client"
 
-import { prisma } from '@/app/lib/db'
 import { LineChart, ResponsiveContainer, CartesianGrid, XAxis, YAxis, Tooltip, Legend, Line } from 'recharts'
 
 interface iAppProps {
